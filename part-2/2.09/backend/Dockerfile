@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 EXPOSE 8080
 
 # set environment variable
-ENV REQUEST_ORIGIN=http://127.0.0.1:5000
+ENV REQUEST_ORIGIN=http://127.0.0.1
 
 # copy source code to /usr/src/app
 COPY . .
